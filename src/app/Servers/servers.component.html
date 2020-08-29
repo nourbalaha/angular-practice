@@ -17,5 +17,4 @@ class="btn btn-primary"
 <!-- <p>{{serverName}}</p> -->
 <!-- <p>{{serverCreationStatus}}</p> -->
 <p *ngIf="serverCreated">Server was created, server name is {{ serverName }}</p>
-<Server></Server>
-<Server></Server>
+<Server *ngFor="let server of servers"></Server>
