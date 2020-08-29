@@ -2,7 +2,12 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'Server',
-    templateUrl: 'Server.component.html'
+    templateUrl: 'Server.component.html',
+    styles: [`
+        .online {
+            color: white;
+        }
+    `]
 })
 
 export class Server {
